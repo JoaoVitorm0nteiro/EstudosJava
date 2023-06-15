@@ -22,9 +22,7 @@ public class constructor_teste {
         this.idade = idade;
     }
 
-    public void falarsobre (){
+    public void falarsobre () {
         System.out.println("Meu nome é: " + getNome() + " e eu tenho " + getIdade() + " anos.");
     }
-
-
 }
