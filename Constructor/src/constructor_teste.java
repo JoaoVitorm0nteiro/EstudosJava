@@ -21,4 +21,10 @@ public class constructor_teste {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    public void falarsobre (){
+        System.out.println("Meu nome é: " + getNome() + " e eu tenho " + getIdade() + " anos.");
+    }
+
+
 }
