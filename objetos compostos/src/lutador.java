@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 
 public class lutador {
-    private int nome;
+    private String nome;
     private String nacionalidade;
     private int idade;
     private float peso;
@@ -14,7 +14,7 @@ public class lutador {
     public void apresentar (){
         System.out.println("CHEGOU A HORA!! Apresentamos o lutador " + this.getNome());
         System.out.println("Diretamente de " + this.getNacionalidade());
-        System.out.println("com " + this.getIdade() + "anos e " + this.getAltura());
+        System.out.println("com " + this.getIdade() + " anos e " + this.getAltura() + "m");
         System.out.println("Pesando " + this.getPeso() + "KG");
         System.out.println(this.getVitorias() + " vitorias");
         System.out.println(this.getDerrotas() + " derrotas e");
@@ -37,22 +37,22 @@ public class lutador {
     }
 
     //metodos especiais
-    public lutador(int nome, String nacionalidade, int idade, float peso, float altura,int vitorias, int derrotas, int empates) {
+    public lutador(String nome, String nacionalidade, int idade, float peso, float altura,int vitorias, int derrotas, int empates) {
         this.nome = nome;
         this.nacionalidade = nacionalidade;
         this.idade = idade;
-        this.peso = peso;
+        this.setPeso(peso);
         this.altura = altura;
         this.vitorias = vitorias;
         this.derrotas = derrotas;
         this.empates = empates;
     }
 
-    public int getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(int nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
