@@ -7,6 +7,5 @@ public class Main {
         L[3] = new lutador("Dead Code", "Australia", 28, 81.6f, 1.93f, 13,0,2);
         L[4] = new lutador("UF0Cobol", "Brasil", 37, 119.3f, 1.70f, 5,4,3);
         L[5] = new lutador("Nerdaart", "EUA", 30, 105.7f, 1.81f, 12,2,4);
-
     }
 }
