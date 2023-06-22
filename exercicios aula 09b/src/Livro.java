@@ -63,7 +63,7 @@ public class Livro implements Publicacao {
                 ", totPaginas=" + totPaginas +
                 ", pagAtual=" + pagAtual +
                 ", aberto=" + aberto +
-                ", leitor=" + leitor +
+                ", leitor=" + leitor.getNome() +
                 '}';
     }
 
